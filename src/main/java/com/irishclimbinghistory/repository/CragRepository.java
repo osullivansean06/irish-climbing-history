@@ -1,7 +1,7 @@
 
-package com.example.climbing.repository;
+package com.irishclimbinghistory.repository;
 
-import com.example.climbing.model.Crag;
+import com.irishclimbinghistory.model.Crag;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CragRepository extends JpaRepository<Crag, Long> {}

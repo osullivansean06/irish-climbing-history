@@ -1,15 +1,14 @@
-package com.example.climbing.controller;
+package com.irishclimbinghistory.controller;
 
-import com.example.climbing.model.Climber;
-import com.example.climbing.model.Crag;
-import com.example.climbing.model.Route;
-import com.example.climbing.repository.ClimberRepository;
-import com.example.climbing.repository.CragRepository;
-import com.example.climbing.repository.RouteRepository;
+import com.irishclimbinghistory.model.Climber;
+import com.irishclimbinghistory.model.Crag;
+import com.irishclimbinghistory.model.Route;
+import com.irishclimbinghistory.repository.ClimberRepository;
+import com.irishclimbinghistory.repository.CragRepository;
+import com.irishclimbinghistory.repository.RouteRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

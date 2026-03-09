@@ -1,9 +1,9 @@
 
-package com.example.climbing.repository;
+package com.irishclimbinghistory.repository;
 
-import com.example.climbing.model.Climber;
-import com.example.climbing.model.Crag;
-import com.example.climbing.model.Route;
+import com.irishclimbinghistory.model.Climber;
+import com.irishclimbinghistory.model.Crag;
+import com.irishclimbinghistory.model.Route;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

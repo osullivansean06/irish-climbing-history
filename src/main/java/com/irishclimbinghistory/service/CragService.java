@@ -1,8 +1,8 @@
-package com.example.climbing.service;
+package com.irishclimbinghistory.service;
 
-import com.example.climbing.exception.ResourceNotFoundException;
-import com.example.climbing.model.Crag;
-import com.example.climbing.repository.CragRepository;
+import com.irishclimbinghistory.exception.ResourceNotFoundException;
+import com.irishclimbinghistory.model.Crag;
+import com.irishclimbinghistory.repository.CragRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

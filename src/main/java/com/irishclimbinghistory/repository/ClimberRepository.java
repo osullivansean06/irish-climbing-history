@@ -1,7 +1,7 @@
 
-package com.example.climbing.repository;
+package com.irishclimbinghistory.repository;
 
-import com.example.climbing.model.Climber;
+import com.irishclimbinghistory.model.Climber;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ClimberRepository extends JpaRepository<Climber, Long> {}

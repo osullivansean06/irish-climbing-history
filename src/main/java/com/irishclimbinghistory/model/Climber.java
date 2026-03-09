@@ -1,5 +1,5 @@
 
-package com.example.climbing.model;
+package com.irishclimbinghistory.model;
 
 import jakarta.persistence.*;
 

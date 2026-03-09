@@ -1,5 +1,5 @@
 
-package com.example.climbing;
+package com.irishclimbinghistory;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

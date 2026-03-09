@@ -1,4 +1,4 @@
-package com.example.climbing.exception;
+package com.irishclimbinghistory.exception;
 
 public class ResourceNotFoundException extends RuntimeException{
 
