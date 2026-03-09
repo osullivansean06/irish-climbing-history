@@ -21,13 +21,23 @@ public class RouteController {
         this.service = service;
     }
 
-    @GetMapping()
-    public List<Route> get(){
-        return service.get();
-    }
-
     @GetMapping(value = "/id/{id}")
     public Route getById(@PathVariable Long id){
         return service.getById(id);
+    }
+
+    @GetMapping(value = "/year/{year}")
+    public List<Route> getByYear(@PathVariable Integer year){
+        return service.getByYear(year);
+    }
+
+    @GetMapping(value = "/climber/{climberId}")
+    public List<Route> getByClimberId(@PathVariable Long climberId){
+        return service.getByClimberId(climberId);
+    }
+
+    @GetMapping(value = "/crag/{cragId}")
+    public List<Route> getByCragId(@PathVariable Long cragId){
+        return service.getByCragId(cragId);
     }
 }
